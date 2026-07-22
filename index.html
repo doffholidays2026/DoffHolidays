@@ -450,6 +450,14 @@
   .cta-inner{position:relative; z-index:2; padding:64px 40px; text-align:center;}
   .cta-inner h2{font-size:clamp(30px,5vw,52px); max-width:640px; margin:0 auto 16px;}
   .cta-inner p{color:var(--cream-dim); max-width:460px; margin:0 auto 28px; font-size:17px;gap:50px;}
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;          /* Increase to 30px if you want more space */
+    flex-wrap: wrap;
+    margin-top: 28px;
+}
   .contact-strip{
     display:flex; justify-content:center; gap:40px; flex-wrap:wrap;
     margin-top:36px; padding-top:28px; border-top:1px dashed var(--line);
@@ -768,12 +776,17 @@
           <span class="eyebrow light">Let's create your next journey</span>
           <h2 style="margin:18px auto;">Ready to plan something unforgettable?</h2>
           <p>Whether you're planning FIT holidays, group tours, MICE events, or tailor-made experiences, our team is ready to create seamless journeys across Armenia.</p>
-          <a href="mailto:doffholidays@gmail.com" class="btn btn-primary">Request a Proposal</a>
-          <a>      </a>
-          <a href="https://drive.google.com/uc?export=download&id=1pZNc--PBFV-Dq_4BcfTo3LcQsSTCqzdl" class="btn btn-primary"
-        target="_blank">
+          <div class="cta-buttons">
+    <a href="mailto:doffholidays@gmail.com" class="btn btn-primary">
+        Request a Proposal
+    </a>
+
+    <a href="https://drive.google.com/uc?export=download&id=1pZNc--PBFV-Dq_4BcfTo3LcQsSTCqzdl"
+       class="btn btn-primary"
+       target="_blank">
         Download Brochure
     </a>
+</div>
 
           <div class="contact-strip">
             <div><strong>Address</strong>46 Garegin Nzhdeh St,<br>Yerevan 0026, Armenia</div>
